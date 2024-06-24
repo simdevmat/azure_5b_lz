@@ -12,7 +12,7 @@ variable "root_name" {
 
 variable "default_location" {
     type = string
-    default = "ause"
+    default = "australiaeast"
 }
 
 variable "deploy_connectivity_resources" {
@@ -22,7 +22,7 @@ variable "deploy_connectivity_resources" {
 
 variable "connectivity_resources_location" {
   type    = string
-  default = "ause"
+  default = "australiaeast"
 }
 
 variable "connectivity_resources_tags" {

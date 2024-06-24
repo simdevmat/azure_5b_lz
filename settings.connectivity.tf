@@ -124,8 +124,7 @@ locals {
             storage_account_web                  = true
           }
           private_link_locations = [
-            "northeurope",
-            "westeurope",
+            "australiaeast",
           ]
           public_dns_zones                                       = []
           private_dns_zones                                      = []
