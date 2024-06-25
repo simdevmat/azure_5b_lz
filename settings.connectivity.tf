@@ -56,7 +56,7 @@ locals {
         }
       }
       dns = {
-        enabled = true
+        enabled = false
         config = {
           location = null
           enable_private_link_by_service = {
@@ -124,7 +124,7 @@ locals {
             storage_account_web                  = true
           }
           private_link_locations = [
-            "australiaeast",
+            var.default_location,
           ]
           public_dns_zones                                       = []
           private_dns_zones                                      = []
